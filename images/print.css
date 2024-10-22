@@ -1,0 +1,50 @@
+@media print {
+  /* Reset all margins and padding */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Hide non-printable elements */
+  body > *:not(.Page) {
+    display: none !important;
+  }
+
+  /* Set up the page */
+  @page {
+    size: A4;
+    margin: 0;
+  }
+
+  /* Style for each Page section */
+  .Page {
+    width: 210mm;
+    height: 297mm;
+    page-break-after: always;
+    overflow: hidden;
+    position: relative;
+  }
+
+  /* Ensure content fits within the page */
+  .Page > * {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Adjust typography for print */
+  body {
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+
+  /* Ensure images fit within the page */
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+}
