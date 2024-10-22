@@ -327,9 +327,9 @@ figcaption {
 	}
 
 	#back-to-home-button {
-		width: 25px;
-		height: 25px;
+		width: 35px;
+		height: 35px;
 		bottom: 10px;
-		right: 10px;
+		right: 12px;
 	}
 }
