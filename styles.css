@@ -92,6 +92,7 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 1.2;
 	font-weight: var(--font-weight-bold);
 	text-align: center;
+}
 
 h1 {
 	font-size: var(--h1-font-size);
@@ -112,9 +113,9 @@ h3 {
 p {
 	margin-bottom: var(--paragraph-spacing);
 	text-align: justify;
-	text-justify: inter-word;
-	hyphens: auto;
-	letter-spacing: 0.1px;
+	text-align-last: justify;
+	-webkit-hyphens: auto;
+	hyphens: auto;	letter-spacing: 0.1px;
 	word-spacing: 0.5px;
 }
 
