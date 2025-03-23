@@ -15,7 +15,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* :root for global variables */
 :root {
 	/* Page dimensions */
-	/* --page-width: 210mm; */
+	--page-width: 210mm;
 	--page-height: 297mm;
 
 	/* Margins */
