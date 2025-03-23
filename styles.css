@@ -15,7 +15,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* :root for global variables */
 :root {
 	/* Page dimensions */
-	--page-width: 210mm;
+	/* --page-width: 210mm; */
 	--page-height: 297mm;
 
 	/* Margins */
@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 0.5em;
 	line-height: 1.2;
 	font-weight: var(--font-weight-bold);
-}
+	text-align: center;
 
 h1 {
 	font-size: var(--h1-font-size);
