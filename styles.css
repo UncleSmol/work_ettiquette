@@ -58,7 +58,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* Global styles */
 body {
-	background-color: transparent;
+	background-color: gray;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
